@@ -1,0 +1,29 @@
+    <div class="card" style="width: 90rem;">
+      <div class="card-body">
+        <h1 class="card-title">Projekty</h1>
+            <button type="button" routerLink="/dodaj-projekt" class="btn btn-primary">Dodaj projekt</button>
+      </div>
+    </div>
+
+    <div class="card" style="width: 90rem;">
+      <div class="card-body">
+        <table class="table">
+          <thead class="table-dark ">
+            <td>Nazwa</td>
+            <td>Opis</td>
+            <td>Data utworzenia</td>
+            <td>Data oddania</td>
+            <td></td>
+          </thead>
+          <tbody class="table-secondary table-striped">
+            <td > {{projekt}} </td>
+            <!-- <td> {{projekt.opis}} </td>
+            <td> {{projekt.dataCzasUtworzenia}} </td>
+            <td> {{projekt.dataOddania}} </td>
+            -->
+            <td></td>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
